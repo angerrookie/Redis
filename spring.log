@@ -1,0 +1,18 @@
+2020/01/03-09:14:53:474 [main] INFO  com.springboot.Test2Application- Starting Test2Application on PC-20181213RMDW with PID 10472 (G:\java\springbootTest\test2\target\classes started by Administrator in G:\java\springbootTest)
+2020/01/03-09:14:53:481 [main] INFO  com.springboot.Test2Application- No active profile set, falling back to default profiles: default
+2020/01/03-09:14:55:952 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2020/01/03-09:14:55:966 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/01/03-09:14:55:966 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020/01/03-09:14:56:111 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/01/03-09:14:56:112 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2462 ms
+2020/01/03-09:14:56:592 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/01/03-09:14:56:895 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2020/01/03-09:14:56:900 [main] INFO  com.springboot.Test2Application- Started Test2Application in 4.44 seconds (JVM running for 6.526)
+2020/01/03-09:15:04:545 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/01/03-09:15:04:545 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/01/03-09:15:04:560 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 14 ms
+2020/01/03-09:15:04:648 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2020/01/03-09:15:05:225 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2020/01/03-09:15:05:252 [http-nio-8080-exec-1] INFO  com.springboot.controller.UserController- info
+2020/01/03-09:15:05:252 [http-nio-8080-exec-1] WARN  com.springboot.controller.UserController- warn
+2020/01/03-09:15:05:253 [http-nio-8080-exec-1] ERROR com.springboot.controller.UserController- .....

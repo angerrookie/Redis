@@ -1,0 +1,15 @@
+11:04:32 logback [main] INFO  com.springboot.Test2Application- Starting Test2Application on PC-20181213RMDW with PID 7572 (G:\java\springbootTest\test2\target\classes started by Administrator in G:\java\springbootTest)
+11:04:32 logback [main] INFO  com.springboot.Test2Application- No active profile set, falling back to default profiles: default
+11:04:33 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+11:04:33 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol- Initializing ProtocolHandler ["http-nio-8080"]
+11:04:33 logback [main] INFO  o.a.catalina.core.StandardService- Starting service [Tomcat]
+11:04:33 logback [main] INFO  o.a.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:04:33 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+11:04:33 logback [main] INFO  o.s.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 1191 ms
+11:04:33 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+11:04:34 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol- Starting ProtocolHandler ["http-nio-8080"]
+11:04:34 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+11:04:34 logback [main] INFO  com.springboot.Test2Application- Started Test2Application in 2.579 seconds (JVM running for 3.858)
+11:04:47 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:04:47 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+11:04:47 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet- Completed initialization in 6 ms
