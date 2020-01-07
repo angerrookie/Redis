@@ -5,6 +5,7 @@ import com.redis.utils.RedisPol;
 import redis.clients.jedis.BinaryClient;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPoolConfig;
+import redis.clients.jedis.Transaction;
 
 import java.util.*;
 
@@ -20,10 +21,10 @@ public class Test {
 
     public static void main(String[] args) {
 //        string类型
-        redisString();
+//        redisString();
         redisHash();
-        redisList();
-        redisSet();
+//        redisList();
+//        redisSet();
         jedis.close();
     }
     /**
@@ -111,6 +112,7 @@ public class Test {
         jedis.hdel("user", "hobby");
         System.out.println("删除." + jedis.hmget("user", "name","age","address","hobby"));
         System.out.println("age:" + jedis.hmget("user", "age")); //因为删除了，所以返回的是null
+        jedis.rename("user","newuser");
         System.out.println("user的键中存放的值的个数:" + jedis.hlen("user")); //返回key为user的键中存放的值的个数
         System.out.println("是否存在key为user的记录:" + jedis.exists("user"));//是否存在key为user的记录
         //删除整个hash
